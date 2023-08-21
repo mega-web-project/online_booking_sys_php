@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Tilt+Warp&display=swap');
+
+
+
+:root{
+    --dark-blue:rgb(2, 2, 35);
+    --dark-green:rgb(2, 139, 66);
+    --success-green:rgb(6, 220, 6);
+    --red:rgb(215, 23, 23);
+    --light-white-red:rgb(248, 151, 151);
+    --light-red:rgb(253, 108, 108);
+    --warning:#b5b074;
+    --blue:rgb(185, 228, 220);
+    }
+    
+#bg-card{
+    background-color: var(--blue);
+}    
+
+#book{
+    background: var(--dark-blue);
+    color: #fff;
+
+}
+
+.book-room{
+    text-decoration: none;
+}
+
+.menus{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap ;
+}
+
+#menu-title{
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.menu-column{
+    width: 30%;
+}
+.menu-column h4{
+    text-transform:capitalize;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.menu-column h4:before{
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background-color: var(--dark-blue);
+    bottom: 0;
+}
+
+.single-menu{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.single-menu img{
+    border-radius: 50%;
+    max-width: 110px;
+    height: 110px;
+    border: 1px dashed saddlebrown;
+    padding: 3px;
+    margin-right: 15px;
+    transition: .3s;
+    
+}
+
+.single-menu:hover img{
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+
+.single-menu .menu-content h5{
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 500;
+    border-bottom: 1px dashed #222;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+
+}
+.single-menu .menu-content h5 span{
+    color: var(--light-red);
+    float: right;
+    font-weight: 500;
+    font-style: italic;
+}
+
+
+/* Request page style. */
+
+.request-title{
+    color: var(--dark-blue);
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+
+.request-form{
+    max-height: 100%;
+    max-width: 100wh;
+    margin: 20px;
+    padding-top: 5px;
+    
+}
+
+.request-form form{
+    width: 100%;
+    height: 100%;
+}
+
+.form-outline .form-label{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: capitalize;
+}
+
+.form-outline select{
+    border-color: #033d4d;
+}
+
+.form-outline input{
+    border-color: #033d4d;
+    font-family: 'Roboto', sans-serif;
+}
+.form-outline textarea{
+    border-color: #033d4d;
+}
+
+.form-outline input::placeholder {
+    /* Add your styles for the placeholder here */
+   background: #fff !important;
+   margin: 2px;
+   color: #ccc;
+  }
+
+  .form-outline textarea::placeholder {
+    /* Add your styles for the placeholder here */
+   background: #fff !important;
+   margin: 2px;
+   color: #ccc;
+  }
+
+  .block-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+
+  /* All_views table actions */
+
+  .actions a{
+    text-decoration: none;
+    margin: 7px;
+  }
+
+  .actions .fa-eye{
+    color: var(--warning);
+  }
+
+  .actions .fa-pencil{
+    color: var(--success-green);
+  }
+
+  .actions .fa-trash{
+    color: var(--light-red);
+  }
+
+  /*  Add buttons*/
+  .add-btn{
+    text-align: right;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+  }
+  
+ 
+
+  /* profile edit */
+
+  

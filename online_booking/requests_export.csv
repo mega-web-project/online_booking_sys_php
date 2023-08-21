@@ -1,0 +1,4 @@
+"Requests Export"
+
+"Request ID","Requester Name","Requester Department","Guest Name",Breakfast,Lunch,Dinner,"Arival Date","Departure Date","Created At",Status
+64c92fbd62b55,admin,"Small Holder","John Asirfi","Coffee Tea","Fried Rice","Boild Yarm with palava sauce","2023-08-01 16:15:00","2023-08-01 22:15:00","2023-08-01 18:15:57",Pending

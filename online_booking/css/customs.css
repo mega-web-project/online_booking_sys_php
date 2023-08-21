@@ -1,0 +1,65 @@
+body{
+    background: #eee;
+}
+
+
+:root{
+--dark-blue:rgb(2, 2, 35);
+--dark-green:rgb(2, 139, 66);
+--success-green:rgb(6, 220, 6);
+--red:rgb(215, 23, 23);
+--light-red:rgb(253, 108, 108);
+--blue:rgb(57, 57, 255);
+}
+
+
+
+h1,h2{
+    font-size: 2rem;
+    color: var(--dark-blue);
+}
+
+h3,h4,h5,h6{
+    font-size: 3rem;
+    color: var(--dark-blue);
+    font-weight: 600;
+    
+}
+#side_nav{
+    background: var(--dark-blue);
+    min-width:250px;
+    max-width: 250px;
+    transition: all .3s;
+}
+
+.content{
+    min-height: 100vh;
+    width: 100%;
+}
+
+hr.h-color{
+    background: #fff;
+   
+}
+
+/* sidebar styels */
+
+.sidebar ul li.active{
+    background-color: #eee;
+    border-radius: 8px;
+}
+
+
+
+.sidebar li.active a, 
+.sidebar li.active a:hover{
+    color: #000;
+}
+
+.sidebar li a{
+    color: #fff;
+}
+
+.navbar-toggler{
+    border:none;
+}
